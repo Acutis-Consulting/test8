@@ -7,7 +7,7 @@ from PIL import Image
 # Page setting
 st.set_page_config(layout="wide")
 
-with open('C:\\Users\\fblum\\IdeaProjects\\test4\\dashboard\\style.css') as f:
+with open('dashboard\\style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Data
